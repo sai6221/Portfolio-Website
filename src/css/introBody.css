@@ -1,3 +1,8 @@
+.introBodyContainer {
+    display: flex;
+    align-items: center;
+  }
+
 .portfolio {
     display: flex;
     flex-direction: column;
@@ -5,13 +10,16 @@
     align-items: flex-start;
     height: 100vh;
     /* padding: 0 20px; Adjust the padding as needed */
-    padding-left: 7%;
+    padding-left: 5%;
     background-color: transparent; /* Optional: Add background color if desired */
     /* filter: brightness(0.5) blur(5px); */
     z-index: 1;
+    flex: 1;
     
     
   }
+  
+
   
   .portfolio-title {
     font-size: 1.25rem;
@@ -46,4 +54,9 @@
     z-index: 1;
   }
   
+  .image{
+    width: 30rem;
+    padding-right: 10%;
+    border-radius: 50%;
+  }
   

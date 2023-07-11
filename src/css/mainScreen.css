@@ -5,6 +5,7 @@
     background-position: center; /* Center the image within the background */
     /* Add any other desired styles for the background */
     position: relative;
-
+    padding-left: 5%;
+    padding-right: 5%;
   }
   
