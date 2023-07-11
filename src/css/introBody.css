@@ -5,24 +5,45 @@
     align-items: flex-start;
     height: 100vh;
     /* padding: 0 20px; Adjust the padding as needed */
-    padding-left: 15%;
+    padding-left: 7%;
     background-color: transparent; /* Optional: Add background color if desired */
     /* filter: brightness(0.5) blur(5px); */
     z-index: 1;
     
+    
   }
   
   .portfolio-title {
-    font-size: 24px;
+    font-size: 1.25rem;
     color: white; 
+    font-weight: 100;
+    line-height: 1.25;
     z-index: 1;
     
   }
   
   .portfolio-subtitle {
-    font-size: 48px;
-    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    /* color: white; */
+    color: rgb(255, 180, 105);
+    padding-top: 5px;
+    padding-bottom: 5px;
     z-index: 1;
     
   }
+  
+  .portfolio-title {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+
+  .arrowContainer {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
   

@@ -1,0 +1,46 @@
+.footerContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+.socialLinks .navbar-item {
+  margin: 0.5rem;
+}
+.socialLinks .navbar-item {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  .socialLinks .navbar-item i {
+    font-size: 24px; /* Adjust the icon size as needed */
+  }
+
+/* Media queries for responsive spacing */
+@media (max-width: 767px) {
+  .socialLinks .navbar-item {
+    margin: 0.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .socialLinks .navbar-item {
+    margin: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .socialLinks .navbar-item {
+    margin: 1rem;
+  }
+}
+  

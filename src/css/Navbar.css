@@ -111,7 +111,7 @@ html {
 
 nav,
 .navbar-menu {
-  background-color: #1a2634 !important;
+  background-color: transparent !important;
 }
 
 .navbar-brand{
