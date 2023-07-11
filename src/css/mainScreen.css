@@ -1,0 +1,7 @@
+.mainScreenSection {
+    background-image: url('/sjsu_2.jpg');
+    background-size: cover; /* Adjust the image size to cover the background */
+    background-position: center; /* Center the image within the background */
+    /* Add any other desired styles for the background */
+  }
+  

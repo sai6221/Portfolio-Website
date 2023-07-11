@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="#">
-          <span>Saieswar Reddy Vaka</span>
+          <span className="navName">Saieswar Reddy Vaka</span>
         </a>
 
         <a
