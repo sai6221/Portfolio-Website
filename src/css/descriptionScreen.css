@@ -1,0 +1,36 @@
+.descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .buttonResume {
+    margin: 16px;
+    background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.1s, color 0.1s;
+  }
+
+  .buttonResume:hover {
+    border-color: rgb(204, 200, 200);
+    color: rgb(99, 96, 96);
+  }
+  
+  .descriptionContent {
+    text-align: center;
+  }
+
+  .downloadButton{
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+  
