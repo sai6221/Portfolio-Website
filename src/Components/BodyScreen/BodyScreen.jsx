@@ -6,8 +6,9 @@ function BodyScreen() {
   return (
     <section className = "bodyScreenSection">
     <Description></Description>
-    {/* <IntroBody></IntroBody>
-    <FooterBody></FooterBody> */}
+    {/* <Skills></Skills>
+    <Experience></Experience>
+    <Resume></Resume> */}
 </section>
   )
 }
