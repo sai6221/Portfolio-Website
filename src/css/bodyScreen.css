@@ -1,7 +1,17 @@
-.bodyScreenSection{
+/* .bodyScreenSection{
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
     background: linear-gradient(to bottom right, #c37ca3, #666698);
-}
+} */
+
+.torch-light-gradient {
+    background-color: black;
+    /* background: radial-gradient(ellipse at center bottom, rgb(62, 38, 92), transparent); Gradient from violet to transparent */
+    position: relative;
+    overflow: hidden;
+
+  }
+  
+  
