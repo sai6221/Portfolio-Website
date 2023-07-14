@@ -1,7 +1,9 @@
 import React from 'react'
 import Description from './Description'
 import Skills from './Skills'
+import Resume from './Resume'
 import '/src/css/bodyScreen.css'
+
 
 function BodyScreen() {
   return (
@@ -9,8 +11,8 @@ function BodyScreen() {
     <div className="torch-light-gradient">
     <Description></Description>
     <Skills ></Skills>
-    {/* <Experience></Experience>
-    <Resume></Resume> */}
+    {/* <Experience></Experience> */}
+    <Resume></Resume>
     </div>
 </section>
   )
