@@ -1,0 +1,17 @@
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%; */
+    background: linear-gradient(to bottom right, #c37ca3, #666698);
+}
+.contact-heading{
+    margin: 3rem;
+    color: white;
+    font-size: 30px;
+}
