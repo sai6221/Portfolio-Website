@@ -12,6 +12,7 @@ function BodyScreen() {
     <Description></Description>
     <Skills ></Skills>
     {/* <Experience></Experience> */}
+    {/* <Projects></Projects> */}
     <Resume></Resume>
     </div>
 </section>

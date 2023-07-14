@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     color: white;
+    padding-bottom: 3rem;
     /* padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 10%;
@@ -15,3 +16,54 @@
     color: white;
     font-size: 30px;
 }
+
+.form-container {
+    width: 50%;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 16px;
+  }
+  .form-input::placeholder {
+    color: #ffffff; /* Specify the desired color */
+  }
+  .form-input:focus {
+    outline: none;
+  }
+  
+  textarea.form-input {
+    resize: vertical;
+  }
+  
+  .form-button {
+    margin: 16px;
+    background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.1s, color 0.1s;
+  }
+  
+  .form-button:hover {
+    border-color: rgb(204, 200, 200);
+    color: rgb(99, 96, 96);
+  }
