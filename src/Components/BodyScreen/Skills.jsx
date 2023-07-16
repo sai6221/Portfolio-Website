@@ -1,5 +1,5 @@
 import React from 'react'
-import Skillcomponent from './skillcomponent'
+import Skillcomponent from './Skillcomponent'
 import '/src/css/skillsScreen.css'
 
 
