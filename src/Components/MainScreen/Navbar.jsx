@@ -33,20 +33,24 @@ const Navbar = () => {
 
       <div className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
         <div className="navbar-end">
-          <a href="#" className="navbar-item">
-            Home
+          <a href="#skillsContainer" className="navbar-item">
+            Skills
           </a>
 
-          <a href="#features" className="navbar-item">
-            Features
+          <a href="#experienceContainer" className="navbar-item">
+            Experience
           </a>
 
-          <a href="#stats" className="navbar-item">
-            Stats
+          <a href="#projectContainer" className="navbar-item">
+            Projects
           </a>
 
-          <a href="#" className="navbar-item">
-            Docs
+          <a href="#resumeContainer" className="navbar-item">
+            Resume
+          </a>
+
+          <a href="#contactContainer" className="navbar-item">
+            Contact
           </a>
         </div>
       </div>

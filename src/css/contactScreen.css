@@ -44,7 +44,6 @@
   .form-input:focus {
     outline: none;
   }
-  
   textarea.form-input {
     resize: vertical;
   }
@@ -67,3 +66,55 @@
     border-color: rgb(204, 200, 200);
     color: rgb(99, 96, 96);
   }
+  .contactIcons {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .reachMsg{
+    font-weight: 100;
+  } .linksMessage{
+    font-weight: 100;
+  }
+
+.links .navbar-item {
+  margin: 0.5rem;
+}
+.links .navbar-item {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  .links .navbar-item i {
+    font-size: 24px; /* Adjust the icon size as needed */
+  }
+
+/* Media queries for responsive spacing */
+@media (max-width: 767px) {
+  .links .navbar-item {
+    margin: 0.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .links .navbar-item {
+    margin: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .links .navbar-item {
+    margin: 1rem;
+  }
+}
+  

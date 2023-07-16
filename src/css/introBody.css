@@ -1,6 +1,7 @@
 .introBodyContainer {
     display: flex;
     align-items: center;
+    height: 100vh;
   }
 
 .portfolio {
@@ -8,15 +9,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 100vh;
+    /* height: 100vh; */
     /* padding: 0 20px; Adjust the padding as needed */
     padding-left: 5%;
     background-color: transparent; /* Optional: Add background color if desired */
     /* filter: brightness(0.5) blur(5px); */
     z-index: 1;
     flex: 1;
-    
-    
   }
   
 

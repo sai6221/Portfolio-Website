@@ -5,7 +5,7 @@ import '/src/css/skillsScreen.css'
 
 function Skills() {
   return (
-    <div className='skillsContainer'>
+    <div className='skillsContainer' id='skillsContainer'>
         <h1 className='skills-heading'>Skills</h1>
 
         <div className='skills'>

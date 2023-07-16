@@ -3,7 +3,7 @@ import '/src/css/resumeScreen.css'
 
 function Resume() {
   return (
-    <div className='resumeContainer'>
+    <div className='resumeContainer' id ='resumeContainer'>
         <div className='resume-heading'>Resume</div>
         <div className='resume-container'><embed
         src="/Resume.pdf"

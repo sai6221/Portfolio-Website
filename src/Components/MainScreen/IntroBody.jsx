@@ -22,7 +22,7 @@ function IntroBody() {
     </div>      
 </div>
   <div className="arrowContainer" >
-        <a href="#features"
+        <a href="#descriptionContainer"
           ><i
             class="fa-solid fa-circle-chevron-down fa-lg vert-move2 has-text-white"
           ></i

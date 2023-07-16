@@ -3,8 +3,9 @@ import '/src/css/contactScreen.css'
 
 function ContactScreen() {
   return (
-    <div className='contactContainer'>
+    <div className='contactContainer' id ='contactContainer'>
         <div className='contact-heading'>Contact Me</div>
+        <div className='reachMsg'>If you like my work and have some cool projects to work on, feel free to reach out or connect with me on social account:</div>
         <div className="form-container">
         <form>
           <div className="form-group">
@@ -22,6 +23,30 @@ function ContactScreen() {
           <button type="submit" className="form-button">Submit</button>
         </form>
       </div>
+      <div className='linksMessage'>You can find links to my GitHub, LinkedIn, and Email:</div>
+      <div className="contactIcons">
+       <div className="links">
+       <a></a>
+       <a href="https://github.com/sai6221" className="navbar-item is-tab" target="_blank">
+  <i className="fa-brands fa-github"></i>
+</a>
+
+
+        <a href="https://www.linkedin.com/in/saieswar-reddy-vaka-528814173/" className="navbar-item is-tab" target="_blank">
+          <i className="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:saieswarreddy.vaka@sjsu.edu" className="navbar-item is-tab" target="_blank">
+          <i className="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="#" className="navbar-item is-tab" target="_blank">
+          <i className="fa-solid fa-phone"></i>
+        </a>
+        <a></a>
+      </div>
+    </div>
+    
         </div>
   )
 }
