@@ -9,7 +9,7 @@ function Skills() {
         <h1 className='skills-heading'>Skills</h1>
 
         <div className='skills'>
-        <Skillcomponent imageUrl="\Python.png" name="Python"></Skillcomponent>
+        <Skillcomponent imageUrl="Python.png" name="Python"></Skillcomponent>
         <Skillcomponent imageUrl="\Pytorch.png" name="Pytorch"></Skillcomponent>
         <Skillcomponent imageUrl="\Tensorflow.png" name="Tensorflow"></Skillcomponent>
         <Skillcomponent imageUrl="\Sql.png" name="Sql"></Skillcomponent>
