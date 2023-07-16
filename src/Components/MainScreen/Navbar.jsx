@@ -37,13 +37,13 @@ const Navbar = () => {
             Skills
           </a>
 
-          <a href="#experienceContainer" className="navbar-item">
+          {/* <a href="#experienceContainer" className="navbar-item">
             Experience
           </a>
 
           <a href="#projectContainer" className="navbar-item">
             Projects
-          </a>
+          </a> */}
 
           <a href="#resumeContainer" className="navbar-item">
             Resume
