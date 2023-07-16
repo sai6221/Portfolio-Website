@@ -17,7 +17,7 @@ function IntroBody() {
   <div className="column mt-6">
           <img
             className="image has-image-centered vert-move mt-4"
-            src="/Me.jpg"
+            src="Me.jpg"
           />
     </div>      
 </div>
