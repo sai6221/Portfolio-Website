@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://sai6221.github.io",
+  "homepage": "https://sai6221.github.io/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
