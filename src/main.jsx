@@ -4,7 +4,12 @@ import App from './App'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  ReactDOM.render(
+    <React.StrictMode>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
+              <App />
+          </BrowserRouter>
+    </React.StrictMode>,
+    document.getElementById('root')
+  )
 )
