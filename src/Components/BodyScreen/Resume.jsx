@@ -6,7 +6,7 @@ function Resume() {
     <div className='resumeContainer' id ='resumeContainer'>
         <div className='resume-heading'>Resume</div>
         <div className='resume-container'><embed
-        src="/Resume.pdf"
+        src="Resume.pdf"
         type="application/pdf"
         className="resume-preview"
         sandbox=""

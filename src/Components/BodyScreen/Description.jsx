@@ -4,7 +4,7 @@ import '/src/css/descriptionScreen.css'
 function Description() {
   const handleDownloadResume = () => {
     // Replace the file URL with the actual URL of the PDF file
-    const fileUrl = '/Resume.pdf';
+    const fileUrl = 'Resume.pdf';
 
     // Create a temporary anchor element
     const link = document.createElement('a');
