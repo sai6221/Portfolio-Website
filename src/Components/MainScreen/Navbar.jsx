@@ -36,7 +36,6 @@ const Navbar = () => {
           <a href="#skillsContainer" className="navbar-item">
             Skills
           </a>
-
           {/* <a href="#experienceContainer" className="navbar-item">
             Experience
           </a>
@@ -44,7 +43,6 @@ const Navbar = () => {
           <a href="#projectContainer" className="navbar-item">
             Projects
           </a> */}
-
           <a href="#resumeContainer" className="navbar-item">
             Resume
           </a>
