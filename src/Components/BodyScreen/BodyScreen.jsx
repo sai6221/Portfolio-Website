@@ -3,6 +3,7 @@ import Description from './Description'
 import Skills from './Skills'
 import Resume from './Resume'
 import Projects from './Projects'
+import Experience from './Experience'
 import '/src/css/bodyScreen.css'
 
 
@@ -12,7 +13,7 @@ function BodyScreen() {
     <div className="torch-light-gradient">
     <Description></Description>
     <Skills ></Skills>
-    {/* <Experience></Experience> */}
+    <Experience></Experience>
     <Projects></Projects>
     <Resume></Resume>
     </div>

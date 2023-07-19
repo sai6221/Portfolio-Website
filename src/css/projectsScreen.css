@@ -47,7 +47,9 @@
   .project-title {
     font-weight: 700;
     margin-left: 10px;
-    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
     text-align: left;
   }
   .project-Skills{
@@ -63,6 +65,7 @@
   .project-description {
     font-weight: 100;
     margin: 10px;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
     text-align: left;
   }
